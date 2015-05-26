@@ -42,12 +42,12 @@ Note that YAML format consists of key/value pairs (separated by a colon) which c
 
 ## Authors
 
-The name of an author is stored as both a family name and a given name. These fields will be used for most purposes in generating output files. 
+The name of an author is stored as both a surname and a forename. These fields will be used for most purposes in generating output files. 
 
 ```markdown
 author: 
-	given: Charlie
-	family: Chaplin
+	forename: Charlie
+	surname: Chaplin
 ```
 
 <div class='question'>
@@ -56,12 +56,12 @@ How should we handle including alternative or commonly abbreviated names. Note i
 
 ```markdown
 author:
-	given: T. [Thomas] S. [Stearns]
-	family: Eliot
+	forename: T. [Thomas] S. [Stearns]
+	surname: Eliot
 	
 author:
-	given: Charlie [Charles]
-	family: Chaplin
+	forename: Charlie [Charles]
+	surname: Chaplin
 ```
 
 Or we could try or we could add another field, storing the name in one field and the name to use for most situations in another. For instance:

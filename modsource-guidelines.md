@@ -21,9 +21,6 @@ author:
 
 citation:
   title: '*Ulysses*, Order, and Myth'
-  author:
-    family: Eliot
-    given: T. S.
   container-title: The Dial
   page: 480-483
   volume: LXXV 

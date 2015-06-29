@@ -16,14 +16,11 @@ Here, for example, is a metadata block for T. S. Eliot's "Tradition and the Indi
 ---
 title: '*Ulysses*, Order, and Myth'
 author: 
-	family: Eliot
-	given: T. S.
+	surname: Eliot
+	forename: T. S.
 
 citation:
 	title: '*Ulysses*, Order, and Myth'
-	author:
-		family: Eliot
-		given: T. S.
 	container-title: The Dial
 	page: 480-483
 	volume: LXXV 

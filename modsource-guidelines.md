@@ -16,22 +16,25 @@ Here, for example, is a metadata block for T. S. Eliot's "Tradition and the Indi
 ---
 title: '*Ulysses*, Order, and Myth'
 author: 
-	surname: Eliot
-	forename: T. S.
+  family: Eliot
+  given: T. S.
 
 citation:
-	title: '*Ulysses*, Order, and Myth'
-	container-title: The Dial
-	page: 480-483
-	volume: LXXV 
-	date: 1923-11
+  title: '*Ulysses*, Order, and Myth'
+  author:
+    family: Eliot
+    given: T. S.
+  container-title: The Dial
+  page: 480-483
+  volume: LXXV 
+  date: 1923-11
 
 editor: Chris Forster
 
 source:
-	- http://summit.syr.edu/vwebv/holdingsInfo?bibId=911529
-	- http://people.virginia.edu/~jdk3t/eliotulysses.htm
-	- http://onlinebooks.library.upenn.edu/webbin/serial?id=thedial
+  - http://summit.syr.edu/vwebv/holdingsInfo?bibId=911529
+  - http://people.virginia.edu/~jdk3t/eliotulysses.htm
+  - http://onlinebooks.library.upenn.edu/webbin/serial?id=thedial
 ---
 ```
 
@@ -39,12 +42,12 @@ Note that YAML format consists of key/value pairs (separated by a colon) which c
 
 ## Authors
 
-The name of an author is stored as both a surname and a forename. These fields will be used for most purposes in generating output files. 
+The name of an author is stored as both a family name and a given name. These fields will be used for most purposes in generating output files. 
 
 ```markdown
 author: 
-	forename: Charlie
-	surname: Chaplin
+  given: Charlie
+  family: Chaplin
 ```
 
 <div class='question'>
@@ -53,21 +56,21 @@ How should we handle including alternative or commonly abbreviated names. Note i
 
 ```markdown
 author:
-	forename: T. [Thomas] S. [Stearns]
-	surname: Eliot
-	
+  given: T. [Thomas] S. [Stearns]
+  family: Eliot
+  
 author:
-	forename: Charlie [Charles]
-	surname: Chaplin
+  given: Charlie [Charles]
+  family: Chaplin
 ```
 
 Or we could try or we could add another field, storing the name in one field and the name to use for most situations in another. For instance:
 
 ```markdown
 author:
-	given: Thomas Sterans
-	family: Eliot
-	given-use: T. S.
+  given: Thomas Sterans
+  family: Eliot
+  given-use: T. S.
 ```
 
 </div>
@@ -247,19 +250,19 @@ This material, including complete metadata (with details not available from the 
 ---
 title: 'The Influence of Mr. James Joyce'
 author:
-	family: Aldington
-	given: Richard
-	birth: 1892-07-08
-	death: 1962-07-27
+  family: Aldington
+  given: Richard
+  birth: 1892-07-08
+  death: 1962-07-27
 
 bibliography:
-	title: 'The Influence of Mr. James Joyce'
-	container-title: The English Review
-	page: 333-341
-	date: 1921-04
+  title: 'The Influence of Mr. James Joyce'
+  container-title: The English Review
+  page: 333-341
+  date: 1921-04
 
 sources:
-	- http://search.proquest.com/docview/2441624?accountid=14214
+  - http://search.proquest.com/docview/2441624?accountid=14214
  
 editor: Chris Forster
 ---

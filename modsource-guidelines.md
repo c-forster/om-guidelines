@@ -252,7 +252,7 @@ author:
   birth: 1892-07-08
   death: 1962-07-27
 
-bibliography:
+citation:
   title: 'The Influence of Mr. James Joyce'
   container-title: The English Review
   page: 333-341

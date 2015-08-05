@@ -35,7 +35,7 @@ source:
 ---
 ```
 
-Note that YAML format consists of a set of "keys" and "valyes" (separated by a colon); they are grouped together by indenting them. So, the `citation` above includes `title` (with the value, `'*Ulysses*, Order, Myth'`), as well as `container-title`, `page`, `volume`, and `date` (each with their own values).
+Note that YAML format consists of a set of "keys" and "values" (separated by a colon); they are grouped together by indenting them. So, the `citation` above includes `title` (with the value, `'*Ulysses*, Order, Myth'`), as well as `container-title`, `page`, `volume`, and `date` (each with their own values).
 
 For details on fields, see below.
 
